@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <style type="text/css">
+    div[class*="col-"] {
+      padding: 15px 0 15px 0;
+      background-color: #eee;
+      border: 1px solid #666;
+    }
+    p[class*='text-'] {
+      border: 1px solid #ccc;
+    }
+  </style>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+  <div class="container">
+    <div class="row text-center">
+      <h1>hello world</h1>
+      <div class="col-sm-1">1</div>
+      <div class="col-sm-1">2</div>
+      <div class="col-sm-1">3</div>
+      <div class="col-sm-1">4</div>
+      <div class="col-sm-1">5</div>
+      <div class="col-sm-1">6</div>
+      <div class="col-sm-1">7</div>
+      <div class="col-sm-1">8</div>
+      <div class="col-sm-1">9</div>
+      <div class="col-sm-1">10</div>
+      <div class="col-sm-1">11</div>
+      <div class="col-sm-1">12</div>
+    </div>
+
+    <br>
+    <ul class="list-unstyled">
+      <li>无样式列表项1</li>
+      <li>无样式列表项2</li>
+      <li>无样式列表项3</li>
+    </ul>
+
+    <div class="row">
+      <p>
+        <code>#include&lt;stdio.h&gt;&emsp;&emsp;</code>
+      </p>
+
+      <pre>
+        #include&lt;stdio.h&gt;
+        int main() {
+          int i = 1;
+        }
+      </pre>
+
+      <p>
+        <kbd>cd</kbd> <kbd>ctrl + '</kbd>
+      </p>
+
+      <p>
+        int <var>z</var> = <var>x</var> * <var>y</var> + 1;
+      </p>
+
+      <p>
+        <samp>[2017-11-27 13:25] the program returns 0.</samp>
+      </p>
+    </div>
+
+    <table class="table table-striped table-bordered table-hover table-condensed">
+      <tr>
+        <th>姓名</th>
+        <th>代号</th>
+      </tr>
+      <tr>
+        <td>Ben</td>
+        <td>123</td>
+      </tr>
+    </table>
+
+    <div class="table-responsive">
+      <table class="table table-bordered">
+        <!-- these statuses only in .table -->
+        <tr><td>1</td><td class="active">.active</td></tr>
+        <tr><td>2</td><td class="success">.success</td></tr>
+        <tr><td>3</td><td class="info">.info</td></tr>
+        <tr><td>4</td><td class="warning">.warning</td></tr>
+        <tr><td>5</td><td class="danger">.danger</td></tr>
+      </table>
+    </div>
+
+
+    <div class="row">
+      <img class="img-circle col-sm-2" src="https://avatars1.githubusercontent.com/u/25732887?s=460&v=4" alt="photo" />
+    </div>
+
+    <p class="text-muted">.text-muted</p>
+    <p class="text-primary">.text-primary</p>
+    <p class="text-success">.text-success</p>
+    <p class="text-info">.text-info</p>
+    <p class="text-warning">.text-warning</p>
+    <p class="text-danger">.text-danger</p>
+    <p class="bg-primary">.bg-primary</p>
+    <p class="bg-info">.bg-info</p>
+    <p class="bg-success">.bg-success</p>
+    <p class="bg-warning">.bg-warning</p>
+    <p class="bg-danger">.bg-danger</p>
+
+
+    <div class="row">
+      <span class="caret"></span>
+      <button type="button" class="close" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+  </div>
+
+
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
