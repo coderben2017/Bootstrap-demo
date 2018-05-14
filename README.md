@@ -1,8 +1,8 @@
-# Boostrap demo
-write down and share it for less trifles.
+# Boostrap Demo
+write less，do more
 
 
 ### Preview
-全剧样式: https://coderben2017.github.io/Bootstrap-demo/test/
+全局样式： https://coderben2017.github.io/Bootstrap-demo/global-style
 
-登录界面demo: https://coderben2017.github.io/Bootstrap-demo/login
+登录界面： https://coderben2017.github.io/Bootstrap-demo/login
