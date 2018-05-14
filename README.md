@@ -1,5 +1,5 @@
 # Boostrap Demo
-write less，do more
+write less, do more ...
 
 
 ### Preview
